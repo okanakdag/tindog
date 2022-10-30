@@ -1,0 +1,178 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    color: #fff;
+    text-align: center;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+.content-wrap {
+    padding: 7% 15%;
+}
+
+/* Sections */
+
+.white-section {
+    color: #000;
+    background-color: #fff;
+}
+
+.colored-section {
+    color: #fff;
+    background-color: #ff4c68;
+}
+
+/* Headings */
+
+.big-heading {
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.section-heading {
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* Buttons */
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+/* Title Section */
+
+#title {
+    padding-top: 3%;
+    text-align: left;
+}
+
+.navbar {
+    margin-bottom: 7%;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu';
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0px 18px;
+    font-weight: lighter;
+}
+
+.title-image {
+    margin-left: 5%;
+    width: 21%;
+    transform: rotate(25deg);
+    position: absolute;
+}
+
+
+/* Features Section */
+
+#features {
+    position: relative;
+    z-index: 5;
+}
+
+.feeature-title {
+    font-size: 1.5rem;
+}
+
+.features-icon {
+    color: #ef8172;
+    font-size: 4rem;
+    margin-bottom: 20px;
+}
+
+.features-icon:hover {
+    color: #ff4c68;
+}
+
+.features-col {
+    padding: 3rem;
+}
+
+/* Testimonials Section */
+
+#testimonials {
+    background-color: #ef8172;
+}
+
+.testimonial-image {
+    width: 15%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+/* Press Section */
+
+#press {
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+
+.card-header {
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+/* Call to action section */
+
+
+/* Footer section */
+
+.social-icon {
+    margin: 20px 10px;
+}
+
+
+@media only screen and (max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+        width: 80%;
+        padding-top: 3.5rem;
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .content-wrap {
+        padding: 7% 3%;
+    }
+    
+    /* headings */
+
+    .big-heading {
+        font-size: 3rem;
+    }
+
+    .section-heading {
+        font-size: 2.5rem;
+    }
+
+    /* Press Section */
+
+    .press-logo {
+        width: 30%;
+        margin: 8% 5%;
+    }
+
+}
